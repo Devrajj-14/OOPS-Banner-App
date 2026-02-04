@@ -4,12 +4,12 @@ public class OOPSBannerApp {
         System.out.println("OOPS");
         System.out.println();
 
-        System.out.println("  *****  " + "   *****  " + " ******  " + "  *****  ");
-        System.out.println(" *     * " + "  *     * " + " *     * " + " *       ");
-        System.out.println(" *     * " + "  *     * " + " *     * " + " *       ");
-        System.out.println(" *     * " + "  *     * " + " ******  " + "  *****  ");
-        System.out.println(" *     * " + "  *     * " + " *       " + "       * ");
-        System.out.println(" *     * " + "  *     * " + " *       " + "       * ");
-        System.out.println("  *****  " + "   *****  " + " *       " + "  *****  ");
+        System.out.println(String.join("", "  *****  ", "   *****  ", " ******  ", "  *****  "));
+        System.out.println(String.join("", " *     * ", "  *     * ", " *     * ", " *       "));
+        System.out.println(String.join("", " *     * ", "  *     * ", " *     * ", " *       "));
+        System.out.println(String.join("", " *     * ", "  *     * ", " ******  ", "  *****  "));
+        System.out.println(String.join("", " *     * ", "  *     * ", " *       ", "       * "));
+        System.out.println(String.join("", " *     * ", "  *     * ", " *       ", "       * "));
+        System.out.println(String.join("", "  *****  ", "   *****  ", " *       ", "  *****  "));
     }
 }
